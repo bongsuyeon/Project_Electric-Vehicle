@@ -36,6 +36,9 @@ body {
 	height: 100%;
 	font-family: "Lato", sans-serif;
 	-webkit-font-smoothing: antialiased;
+    font-family: "Sulphur Point",sans-serif;
+    font-weight: normal;
+    font-style: normal;
 }
 
 h1,
@@ -508,6 +511,7 @@ ol {
   Hero
 -----------------------*/
 
+
 .hero {
 	padding: 140px 0;
 }
@@ -632,6 +636,7 @@ select {
 *, ::after, ::before {
     box-sizing: border-box;
 }
+
 
 .hero__text .primary-btn {
 	margin-right: 16px;
@@ -852,6 +857,8 @@ select {
 	border: none;
 	width: 180px;
 }
+
+
 
 /*---------------------
   Feature
