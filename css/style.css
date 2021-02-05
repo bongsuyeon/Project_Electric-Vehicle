@@ -134,8 +134,9 @@ ol {
 
 .section-title P {
 	margin-bottom: 0;
-	font-size: 17px;
+	font-size: 20px;
 	color: #727171;
+	font-family: 'NanumSquare', sans-serif;
 }
 
 .set-bg {
@@ -2131,6 +2132,7 @@ select {
 .services__item p {
 	margin-bottom: 20px;
 	color: #8d8d8d;
+	font-family: 'NanumSquare', sans-serif;
 }
 
 .services__item a {
@@ -2146,6 +2148,13 @@ select {
 	-webkit-transition: all, 0.3s;
 	-o-transition: all, 0.3s;
 	transition: all, 0.3s;
+}
+
+.services__item img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+
 }
 
 /*---------------------
