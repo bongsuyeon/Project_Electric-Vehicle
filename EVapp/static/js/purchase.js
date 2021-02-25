@@ -1,6 +1,6 @@
 $('#sub').click(function () {
     $.ajax({
-        url: 'http://localhost:8000/EVapp/purchase/',
+        url: '/EVapp/purchase/',
         //data: 'html',
         //type: 'GET',
         success: function (data) {

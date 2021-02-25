@@ -1,5 +1,5 @@
 $.ajax({
-    url:'http://localhost:8000/EVapp/loadMapData/0',
+    url:'/EVapp/loadMapData/0',
     dataType:'json',
     type:'GET',
     success:function(result){

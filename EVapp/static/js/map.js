@@ -4,7 +4,7 @@ var locPosition;
 
 $('#num0').click( function() {
   $.ajax({
-      url:'http://localhost:8000/EVapp/loadMapData/0',
+      url:'/EVapp/loadMapData/0',
       dataType:'json',
       type:'GET',
       success:function(result){
@@ -17,7 +17,7 @@ $('#num0').click( function() {
 
 $('#num1').click( function() {
     $.ajax({
-        url:'http://localhost:8000/EVapp/loadMapData/1',
+        url:'/EVapp/loadMapData/1',
         dataType:'json',
         type:'GET',
         success:function(result){
@@ -29,7 +29,7 @@ $('#num1').click( function() {
 
 $('#num2').click( function() {
     $.ajax({
-        url:'http://localhost:8000/EVapp/loadMapData/2',
+        url:'/EVapp/loadMapData/2',
         dataType:'json',
         type:'GET',
         //data:{'msg':$('#msg').val()},
