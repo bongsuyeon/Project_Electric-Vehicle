@@ -4,6 +4,9 @@
 🙋‍♀️전기차 충전소 웹사이트 입니다.<br>
 `DJANGO` `HTML` `CSS` `JS` `SQLite` 를 이용하여 만들었고, pythonanywhere에 올려두었습니다.
 
+> 현재 위치를 가져오기 위해서는 HTTPS로 연결해야하는데 PYTHONANYWHERE에서 HTTP로만 접속가능하여 서버에 HTTPS인증을 해결해야합니다.
+> [localhsot에서는 예외적으로 HTML5 Geolocation API 사용이 가능하여 제대로 작동합니다.]
+
 ![image](https://user-images.githubusercontent.com/55824165/109201632-6a536b00-77e5-11eb-9156-f13a4e09a75e.png)
 ![image](https://user-images.githubusercontent.com/55824165/109201672-74756980-77e5-11eb-8e54-eb3e98450e07.png)
 ![image](https://user-images.githubusercontent.com/55824165/109201701-7b9c7780-77e5-11eb-9309-5bdf057b4bcc.png)
